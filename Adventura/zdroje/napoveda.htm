@@ -1,0 +1,85 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+
+<head>
+  <title>Nápověda ke hře</title>
+
+</head>
+
+<body lang="cs" style="padding: 10px">
+  <h1>Nápověda ke hře</h1>
+
+  <h2>Příběh</h2>
+  <p>
+    Jste mladý hobit Frodo, který byl právě pověřen Velkou radou v Roklince odnést Prsten moci do Mordoru a tam ho
+    zničit v ohních Hory osudu, což by znamenalo konečnou porážku Saurona. Pro tento úkol mu bylo přiděleno 8
+    společníků, kteří vám pomohou překonat některé z překážek, které na vás po cestě čekají. Cestou určitě vše bedlivě
+    prozkoumávejte, protože můžete objevit předměty, které vám v pozdější fázi hry mohou být k užitku. Zároveň ale
+    dobře vybírejte, co je a co není zbytečnost, váš batoh není bezedný, a tak unesete jen určité množství věcí.
+  </p>
+
+  <h2>Zadávání příkazů</h2>
+
+  <p>
+    Příkazy se zadávají do textového pole ve formátu <b>příkaz</b><i>(mezera)</i><b>parametr</b>.
+    Některé prostory či věci mají víceslovný název, zadávání příkazu je v takovém případě následující <b>příkaz</b><i>(mezera)</i><b>parametr_parametr</b>.
+    Příklad:
+  </p>
+
+  <pre>
+  pouzij Neviditelny_plast
+</pre>
+
+  <h2>Seznam příkazů s paremetry a popisem</h2>
+  <ul>
+    <li><b>jdi</b> Příkaz, kterým se pohybuje po mapě. Použití: jdi [název místa]</li>
+    <li><b>konec</b> Příkaz, kterým se ukončí hra v jakékoliv části. Použití: konec </li>
+    <li><b>napoveda</b> Příkaz, který vypíše cíl hry a seznam dostupných příkazů. Použití: napoveda </li>
+    <li><b>seber</b> Pokud chceš sebrat nějakou věc a vložit jí do batohu, slouží k tomu tento příkaz. Použití: seber
+      [název věci] </li>
+    <li><b>zahod</b> Opak příkazu seber, vyhodí věc z batohu a nechá ji na aktuálním místě. Použití: zahod [název věci]</li>
+    <li><b>prozkoumat</b> Prozkoumá aktuální místnost a vrátí, jaké předměty se zde nacházejí. Použití: prozkoumat </li>
+    <li><b>pouzij</b> Použije vybranou věc z batohu, pokud tato věc je použitelná. Použití: pouzij [název věci] </li>
+    <li><b>batoh</b> Vypíše momentální obsah batohu. Použití: batoh </li>
+    <li><b>spolecenstvo </b> Vypíše aktuální seznam členů Společenstva. Použití: spolecenstvo </li>
+
+  </ul>
+
+  <h2>Postup pro dokončení hry</h2>
+
+
+  <p>Jedna z vítězných cest:</p>
+  <ul>
+    <li>prozkoumat</li>
+    <li>seber Prsten</li>
+    <li>jdi Rozcesti</li>
+    <li>jdi Morie</li>
+    <li>jdi Lorien</li>
+    <li>prozkoumat</li>
+    <li>seber Neviditelny_plast</li>
+    <li>jdi Reka</li>
+    <li>jdi Amon_Hen</li>
+    <li>jdi Emyn_Muil</li>
+    <li>použij Neviditelny_plast</li>
+    <li>jdi Cerná_brana</li>
+    <li>jdi Hora_osudu</li>
+    <li>zahoď Prsten</li>
+  </ul>
+
+  <h2>Spuštění hry</h2>
+
+  <p>
+    Pokud máme k dispozici zdrojové kódy, spouští se hra třídou START. Pokud máte k dispozi .jar soubor, stačí ho
+    otevřít dvojklikem, jako klasický program. POkud jste fajnšmekr, v příkazové řádce Windows se dostanete do
+    složky, kde se nachází soubor CestaDoMordoru.jar a zadáte příkaz viz níže. Pokud budeme předpokládat, že hra je
+    uložena na ploše, použijeme následující dvojici příkazů:
+  </p>
+
+  <pre>
+      cd desktop java <br>
+      -jar CestaDoMordoru.jar
+  </pre>
+
+</body>
+
+</html>
