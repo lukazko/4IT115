@@ -6,7 +6,7 @@ in progress..
 ## Czech
 *Pro všechny ty, co šli na VŠE, protože si mysleli, že tady nebudou muset programovat...*
 
-- V tomto repozitáři najdete veškerý výstup, který po nás byl požadován v rámci předmětu 4IT115 Softwarové inženýrství. 
+- V tomto repozitáři najdete veškerý programátorský výstup, který po nás byl požadován v rámci předmětu 4IT115 Softwarové inženýrství. 
 - Jedná se o zimní semestr 2018, mé cvičení vedla doc. Buchalcevová.
 
 ### Homework
