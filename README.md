@@ -40,5 +40,4 @@ in progress..
 - Připojil jsem i .jar soubor, takže si můžete zahrát/kouknout se jak vypadá výsledek.
 - Ohodnoceno 15/15 hah
 
-
 ### Doufám, že to alespoň někomu pomůže :v:
