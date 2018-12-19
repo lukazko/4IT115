@@ -16,7 +16,7 @@ in progress..
 
 - Sám prd umím, ale studium na průmyslovce mě naučilo reverznímu inženýrství. Poskládal jsem tedy cosi, co až na pár detailů odpovídá zadání.
 - Připojil jsem i .jar soubor, takže si můžete zahrát/kouknout se jak vypadá výsledek.
-- Ohodnoceno 15/15 hah
+- Ohodnoceno 5/5 hah
 
 ### Adventura
 - První semestrální práce, ve které se jedná o implementaci GUI do adventury z předchozího kurzu 4IT101.
@@ -38,7 +38,7 @@ in progress..
 - V podstatě veškeré požadavky, které bylo třeba přidat, naprogramovala sama paní docentka na cvičení a já je s radostí využil, jedinou featuru, kterou jsme museli "sami vymyslet" bylo zobrazení obsahu baťohu/inventáře pomocí obrázků.
 - Nemám tam žádné věci za bonusové body, je to čistý základ, který je potřeba k tomu, abyste splnili minimální požadavky zadání.
 - Připojil jsem i .jar soubor, takže si můžete zahrát/kouknout se jak vypadá výsledek.
-- Ohodnoceno 5/5 hah
+- Ohodnoceno 15/15 hah
 
 
 ### Doufám, že to alespoň někomu pomůže :v:
