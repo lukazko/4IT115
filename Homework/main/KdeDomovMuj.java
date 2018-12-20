@@ -53,27 +53,25 @@ public class KdeDomovMuj extends Application
         Scene scene = new Scene(borderPane, 530, 470);
         ToggleGroup group = new ToggleGroup();
         
-        /*Image def = new Image("/zdroje/jihocesky/rabi.jpg");
-        ImageView defView = new ImageView(def);*/
+        Image def = new Image("/zdroje/default.jpg");
+        ImageView defView = new ImageView(def);
         
         GridPane header = new GridPane();   
         img = new AnchorPane();
-        Label label = new Label("Zvol si kraj a pak klikni na hádej...");
         borderPane.setLeft(img);
-        label.setPadding(new Insets(10, 10, 10, 10));
-        img.getChildren().add(label);
+        img.getChildren().add(defView);
       
         String[] regions = region.getRegionsNames();
         RadioButton[] buttons = new RadioButton[regions.length];
         
         for (int i = 0; i < regions.length; i++)
         {
-            buttons[i] = new RadioButton(regions[i].toString());
+            buttons[i] = new RadioButton(regions[i]);
             buttons[i].setToggleGroup(group);
             hbox.getChildren().add(buttons[i]);
             
             img.getChildren().clear();
-            img.getChildren().add(label);
+            img.getChildren().add(defView);
             int chosen = i;
             
             buttons[i].setOnAction(new EventHandler<ActionEvent>()
@@ -86,7 +84,7 @@ public class KdeDomovMuj extends Application
                     borderPane.setRight(null);
                     borderPane.setLeft(null);
                     img.getChildren().clear();
-                    img.getChildren().add(label);
+                    img.getChildren().add(defView);
                     borderPane.setLeft(img);
                     
                     ILoc list = region.getRegions().get(chosen);
@@ -147,7 +145,7 @@ public class KdeDomovMuj extends Application
                             borderPane.setRight(null);
                             borderPane.setLeft(null);
                             img.getChildren().clear();
-                            img.getChildren().add(label);
+                            img.getChildren().add(defView);
                             borderPane.setLeft(img);
                             
                         }                    
