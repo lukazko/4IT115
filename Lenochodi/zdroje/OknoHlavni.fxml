@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="rootPane" prefHeight="400.0" prefWidth="496.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uzivatelskeRozhrani.OknoHlavni">
+   <children>
+      <MenuBar fx:id="menuBar">
+         <menus>
+            <Menu fx:id="menu" mnemonicParsing="false" text="Menu">
+               <items>
+                  <MenuItem fx:id="vychazkyItem" mnemonicParsing="false" onAction="#loadVychazky" text="Vycházky" />
+                  <MenuItem fx:id="zakazniciItem" mnemonicParsing="false" onAction="#loadZakaznici" text="Zákazníci" />
+                  <MenuItem fx:id="objednavkyItem" mnemonicParsing="false" onAction="#loadObjednavky" text="Objednávky" />
+                  <MenuItem fx:id="pruvodciItem" mnemonicParsing="false" onAction="#loadPruvodci" text="Průvodci" />
+               </items>
+            </Menu>
+            <Menu fx:id="napoveda" mnemonicParsing="false" text="Nápověda">
+               <items>
+                  <MenuItem fx:id="napovedaItem" mnemonicParsing="false" onAction="#zobrazNapovedu" text="Nápověda" />
+                  <MenuItem fx:id="oProgramuItem" mnemonicParsing="false" onAction="#zobrazInfo" text="O programu" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <AnchorPane prefHeight="375.0" prefWidth="521.0">
+         <children>
+            <ImageView fx:id="pozadi" fitHeight="400.0" fitWidth="499.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@praha.jpg" />
+               </image>
+            </ImageView>
+            <Button fx:id="vychazkyButton" alignment="BASELINE_CENTER" layoutX="72.0" layoutY="96.0" mnemonicParsing="false" onAction="#loadVychazky" prefHeight="60.0" prefWidth="134.0" text="Vycházky" />
+            <Button fx:id="objednavkyButton" alignment="BASELINE_CENTER" layoutX="297.0" layoutY="96.0" mnemonicParsing="false" onAction="#loadObjednavky" prefHeight="60.0" prefWidth="134.0" text="Objednávky" />
+            <Button fx:id="zakazniciButton" alignment="BASELINE_CENTER" layoutX="72.0" layoutY="210.0" mnemonicParsing="false" onAction="#loadZakaznici" prefHeight="60.0" prefWidth="134.0" text="Zákazníci" />
+            <Button fx:id="pruvodciButton" alignment="BASELINE_CENTER" layoutX="297.0" layoutY="210.0" mnemonicParsing="false" onAction="#loadPruvodci" prefHeight="60.0" prefWidth="134.0" text="Průvodci" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

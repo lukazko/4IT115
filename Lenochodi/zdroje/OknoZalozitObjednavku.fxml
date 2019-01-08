@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="rootPane" prefHeight="400.0" prefWidth="499.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="uzivatelskeRozhrani.OknoZalozitObjednavku">
+   <children>
+      <MenuBar fx:id="menuBar1">
+         <menus>
+            <Menu fx:id="menu1" mnemonicParsing="false" text="Menu">
+               <items>
+                  <MenuItem fx:id="vychazkyItem1" mnemonicParsing="false" onAction="#loadVychazky" text="Vycházky" />
+                  <MenuItem fx:id="zakazniciItem1" mnemonicParsing="false" onAction="#loadZakaznici" text="Zákazníci" />
+                  <MenuItem fx:id="objednavkyItem1" mnemonicParsing="false" onAction="#loadObjednavky" text="Objednávky" />
+                  <MenuItem fx:id="pruvodciItem1" mnemonicParsing="false" onAction="#loadPruvodci" text="Průvodci" />
+               </items>
+            </Menu>
+            <Menu fx:id="napoveda1" mnemonicParsing="false" text="Nápověda">
+               <items>
+                  <MenuItem fx:id="napovedaItem" mnemonicParsing="false" onAction="#zobrazNapovedu" text="Nápověda" />
+                  <MenuItem fx:id="oProgramuItem" mnemonicParsing="false" onAction="#zobrazInfo" text="O programu" />
+               </items>
+            </Menu>
+         </menus>
+      </MenuBar>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="97.0" prefWidth="600.0">
+         <children>
+            <Label layoutX="14.0" layoutY="21.0" prefHeight="49.0" prefWidth="392.0" text="Založení nové objednávky">
+               <font>
+                  <Font size="33.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="345.0" prefWidth="600.0">
+         <children>
+            <Button fx:id="PotvrditButton" layoutX="189.0" layoutY="258.0" mnemonicParsing="false" onAction="#potvrditObjednavku" prefHeight="27.0" prefWidth="122.0" text="Potvrdit" />
+            <Label fx:id="vychazkaLabel" layoutX="14.0" layoutY="21.0" prefHeight="25.0" prefWidth="138.0" text="ID:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="idInput" layoutX="165.0" layoutY="21.0" />
+            <Label fx:id="vychazkaLabel1" layoutX="14.0" layoutY="47.0" prefHeight="25.0" prefWidth="138.0" text="Stav:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="stavInput" layoutX="165.0" layoutY="48.0" />
+            <Label fx:id="vychazkaLabel2" layoutX="14.0" layoutY="73.0" prefHeight="25.0" prefWidth="138.0" text="Zákazník:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <Label fx:id="vychazkaLabel3" layoutX="14.0" layoutY="99.0" prefHeight="25.0" prefWidth="138.0" text="Vycházka:">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="zakaznikInput" layoutX="165.0" layoutY="74.0" prefWidth="150.0" />
+            <ChoiceBox fx:id="vychazkaInput" layoutX="165.0" layoutY="100.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>

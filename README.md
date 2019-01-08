@@ -34,7 +34,7 @@ _Pro všechny ty, co šli na VŠE, protože si mysleli, že tady nebudou muset p
 > - Součástí grafického rozhraní musí být menu, které bude obsahovat minimálně položky Nová hra, Nápověda
 > - Při přechodu do prostoru se na panelu vypíší východy z prostoru, realizováno pomocí návrhového vzoru Observer
 > - Při přechodu do prostoru se v dialogovém okně zobrazí obrázek s plánem prostorů, na kterém bude vyznačen aktuální prostor, realizováno pomocí návrhového vzoru Observer
-> - Nápověda ( uložená v HTML souboru) se bude zobrazovat v samostatném okně
+> - Nápověda (uložená v HTML souboru) se bude zobrazovat v samostatném okně
 > - Na kitscm bude vytvořena záložka grafickaVerze
 > - Obsah batohu se bude zobrazovat pomocí obrázků na panelu, při změně obsahu batohu se provede aktualizace obrázků, v řešení bude využit návrhový vzor Observer
 > - Aplikace se spustí buď v textovém rozhraní, anebo v grafickém rozhraní podle parametru příkazové řádky
@@ -47,7 +47,11 @@ _Pro všechny ty, co šli na VŠE, protože si mysleli, že tady nebudou muset p
 
 ### Lenochodi
 
-- dfdgfd
-- fdsgfdg
+- Týmová práce, která se obhajuje ve zkouškovém období.
+- Je to děs a hrůza, odporuje to snad všem zásadám oop, ale co mělo to jakž takž splňuje.
+- Originální repozitář projektu: [klik](https://github.com/lukazko/Lenochodi)
+
+- Zadáním bylo vytvoření aplikace podporující činost agentury, která podporuje vycházky po Praze. Evidence zákazníků, průvodců, vycházek a objednávek. Údaje z aplikace se propisují do hostované databáze.
+- Ohodnoceno 15/15 lol
 
 ### Doufám, že to alespoň někomu pomůže :v:
